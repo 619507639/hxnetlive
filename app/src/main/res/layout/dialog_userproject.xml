@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="452dp"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="35dp"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_white"
+    android:paddingLeft="15dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personinfo"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="感谢您使用Hyshow，为了保障您的合法"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/agreement_text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="权益以及更好的体验产品，在使用Hyshow"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/agreement_text"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前，辛苦您了解并同意Hyshow"
+            android:textSize="14sp"
+            android:textColor="@color/agreement_text"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="《隐私协议》"
+            android:textSize="14sp"
+            android:textColor="@color/privatepolicy"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="和"
+            android:textSize="14sp"
+            android:textColor="@color/agreement_text"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="《用户协议》"
+            android:textSize="14sp"
+            android:textColor="@color/privatepolicy"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="，非常感谢您的理解和配合。"
+            android:textSize="14sp"
+            android:textColor="@color/agreement_text"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我们非常重视隐私和个人信息保护。在您使"
+        android:textSize="14sp"
+        android:textColor="@color/agreement_text"
+        android:layout_marginTop="2dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用过程中，我们可能会对您部分个人信息进"
+        android:textSize="14sp"
+        android:textColor="@color/agreement_text"
+        android:layout_marginTop="2dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="行收集、使用和共享。"
+        android:textSize="14sp"
+        android:textColor="@color/agreement_text"
+        android:layout_marginTop="2dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.我们可能会申请系统设备权限收集设备信息"
+        android:textSize="14sp"
+        android:textColor="@color/agreement_text"
+        android:layout_marginTop="2dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日志信息，用于信息推送和安全风控，并申"
+        android:textSize="14sp"
+        android:textColor="@color/agreement_text"
+        android:layout_marginTop="2dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请存储权限，用于下载及缓存相关文件。"
+        android:textSize="14sp"
+        android:textColor="@color/agreement_text"
+        android:layout_marginTop="2dp"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_agree"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/agreement_agree">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Agree"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_cancel"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/agreement_cancel">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Cancel"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

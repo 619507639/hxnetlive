@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anchor_detail"
+    android:layout_width="166dp"
+    android:layout_height="210dp"
+    tools:context=".ui.Activity.LaunchActivity"
+    android:layout_marginTop="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/img_anchor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/anchor_1" />
+
+
+    <TextView
+        android:id="@+id/txt_anchor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="物语小甜心咋咋咋"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/line_anchor_age"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/txt_anchor_name"
+        android:layout_marginTop="3dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/anchor_age_bg"
+        >
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@mipmap/serch"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26"
+            android:textColor="@color/white"
+            android:textSize="9sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="1dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/txt_anchor_name"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/line_anchor_age"
+        android:layout_marginLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/anchor_area_bg"
+        >
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@mipmap/area_icon"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="China"
+            android:textColor="@color/white"
+            android:textSize="9sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="1dp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/anchor_area_bg"
+        android:paddingRight="5dp"
+        >
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@mipmap/circle_online"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status_online"
+            android:textColor="@color/white"
+            android:textSize="9sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="1dp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@mipmap/anchor_video"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        />
+
+</RelativeLayout>

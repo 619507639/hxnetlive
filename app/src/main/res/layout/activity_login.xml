@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/login_bg"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.Activity.Login.LoginActivity">
+
+
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="153dp"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/logo"
+        android:scaleType="fitXY"
+        />
+    <ImageView
+        android:id="@+id/img_hyshow"
+        android:layout_width="118dp"
+        android:layout_height="36dp"
+        android:background="@mipmap/hyshow"
+        android:layout_below="@+id/img_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        />
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_facebook"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/img_hyshow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="226dp"
+        android:background="@drawable/login_facebook">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Facebook"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:background="@mipmap/login_facebook_icon" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_google"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/rl_facebook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_google">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Google"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:background="@mipmap/login_google_icon" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_phone"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/rl_google"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="42dp"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_google">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Mobile login"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:background="@mipmap/login_phone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/more"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/line_priuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/txt_more"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="阅读“"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/txt_pripolicy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐私政策"
+            android:textColor="@color/privatepolicy"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="”和“"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/txt_useragreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户协议"
+            android:textColor="@color/privatepolicy"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="”"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

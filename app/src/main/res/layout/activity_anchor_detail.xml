@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Activity.AnchorDetailActivity">
+
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="560dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/detail_bg">
+
+        <TextView
+            android:id="@+id/anchor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="14dp"
+            android:text="物语小甜心咋咋咋"
+            android:textColor="@color/anchor_name"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/anchor_name"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="5dp"
+            android:text="ID : 546372889"
+            android:textColor="@color/anchor_name" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/anchor_white_bg"
+            android:orientation="horizontal"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/select_circle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="1dp"
+                android:text="@string/status_online"
+                android:textColor="@color/white"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/line_age"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_below="@+id/txt_id"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/anchor_age"
+            android:orientation="horizontal"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/male_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="1dp"
+                android:text="@string/status_online"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_below="@+id/txt_id"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/line_age"
+            android:background="@mipmap/shadow"
+            android:orientation="horizontal"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/area_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:text="China"
+                android:textColor="@color/anchor_area_bg"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_im"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_below="@+id/line_age"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16sp"
+            android:background="@mipmap/im" />
+
+        <LinearLayout
+            android:layout_width="265dp"
+            android:layout_height="76dp"
+            android:layout_below="@+id/line_age"
+            android:layout_marginTop="9sp"
+            android:layout_toRightOf="@+id/img_im"
+            android:background="@mipmap/hong_bg">
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="47dp"
+                android:background="@mipmap/hong_camer" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:text="Start video"
+                android:textColor="@color/white"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/anchor_title"/>
+
+
+</RelativeLayout>

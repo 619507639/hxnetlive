@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="login_facebook">#4D71C8</color>
+    <color name="login_google">#FFFFFF</color>
+    <color name="privatepolicy">#FE7EB9</color>
+    <color name="agreement_agree">#252E34</color>
+    <color name="agreement_unagree">#38252e34</color>
+    <color name="agreement_text">#666666</color>
+    <color name="phone_login">#F3F4F8</color>
+    <color name="text_hint_color">#B1B6C9</color>
+    <color name="color_code">#929292</color>
+    <color name="anchor_age">#FF2C8E</color>
+    <color name="anchor_area">#4d000000</color>
+    <color name="anchor_name">#28262F</color>
+    <color name="anchor_online">#6EE66C</color>
+    <color name="anchor_area_bg">#282630</color>
+    <color name="anchor_report">#DDDDDD</color>
+    <color name="sure_report">#000000</color>
+    <color name="line_block">#979797</color>
+    <color name="call_bg">#26000000</color>
+    <color name="setting_color">#242424</color>
+    <color name="setting_text_color">#333333</color>
+    <color name="endtalk_color">#282828</color>
+    <color name="endtalk_info">#79818C</color>
+    <color name="areacode">#999999</color>
+</resources>

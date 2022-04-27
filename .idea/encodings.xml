@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hxinternet/hxtalk/ui/Adapter/AnchorBannerAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hxinternet/hxtalk/ui/Adapter/AnchorItemAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hxinternet/hxtalk/ui/Adapter/Recommand_AnchorItemAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hxinternet/hxtalk/ui/Banner/BannerData.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hxinternet/hxtalk/ui/Dialog/CallSettingDialog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hxinternet/hxtalk/ui/Dialog/EndTalkDialog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hxinternet/hxtalk/ui/Dialog/ReportDialog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hxinternet/hxtalk/ui/Dialog/SureReportDialog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hxinternet/hxtalk/ui/Dialog/UserAgreementDialog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hxinternet/hxtalk/utils/Eventbus/BindEventBus.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/color/home_table_select_text.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/chose_contain.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/agreement_agree.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/agreement_cancel.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/agreement_report.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/agreement_unagree.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/anchor_age.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/anchor_age_bg.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/anchor_area_bg.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/anchor_white_bg.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/call_bg.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/chose_contain.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/conner_white_bg.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/detail_area.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/detail_bg.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/dialog_setting.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/dialog_white.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/login_facebook.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/login_google.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/phone_login.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_main.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_my.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_setting_audio.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_setting_camer.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_setting_report.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_setting_video.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_talk.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/shadow.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_call.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_called.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_endtalk.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_report.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_surereport.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_userproject.xml" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

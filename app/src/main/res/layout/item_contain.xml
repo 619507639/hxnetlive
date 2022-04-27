@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anchor_detail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ui.Activity.LaunchActivity"
+    >
+
+    <TextView
+        android:id="@+id/txt_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_marginLeft="15dp"
+        android:textSize="16sp"
+        android:layout_marginTop="2dp"
+        android:visibility="gone"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/area_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Area"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="22dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/txt_areacode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+967"
+            android:textColor="@color/areacode"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="27dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

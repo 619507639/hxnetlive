@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="188dp"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_white"
+    >
+
+
+    <TextView
+        android:id="@+id/txt_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置"
+        android:textSize="18sp"
+        android:textColor="@color/setting_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/txt_setting"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_camer"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:background="@drawable/selector_setting_video" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_camer"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="摄像头"
+                android:textSize="12sp"
+                android:textColor="@color/setting_text_color"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_audio"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:background="@drawable/selector_setting_audio" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_audio"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="摄像头"
+                android:textSize="12sp"
+                android:textColor="@color/setting_text_color"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_trans"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:background="@drawable/selector_setting_camer" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_trans"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="摄像头"
+                android:textSize="12sp"
+                android:textColor="@color/setting_text_color"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_report"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:background="@drawable/selector_setting_report" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_report"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="摄像头"
+                android:textSize="12sp"
+                android:textColor="@color/setting_text_color"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

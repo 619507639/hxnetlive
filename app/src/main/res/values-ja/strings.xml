@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HaiXiu</string>
+    <string name="app_main">Main</string>
+    <string name="app_talk">HX</string>
+    <string name="app_myself">MYSELF_YD</string>
+    <string name="more">More</string>
+    <string name="personinfo">personinfo</string>
+    <string name="hint_code">Code</string>
+    <string name="welcome">Welcome</string>
+    <string name="hint_phonecode">hint_phone</string>
+    <string name="hint_password">Please input Password</string>
+    <string name="pass_details">请输入6-10位数字加字母（区分大小写）</string>
+    <string name="nocode">收不到验证码？</string>
+    <string name="pass_forget">收不到验证码？</string>
+    <string name="set_password_title">请设置你的登录密码</string>
+    <string name="back_password_title">密码找回</string>
+    <string name="sex">Your gender is？</string>
+    <string name="sex_details">性别选定后不可更改</string>
+    <string name="userage">Your age is？</string>
+    <string name="status_online">在线</string>
+    <string name="status_busy">忙碌</string>
+    <string name="anchor_block">确定要将对方拉黑?</string>
+    <string name="cancel">Cancel</string>
+    <string name="sure">Sure</string>
+    <string name="waitforcall">Waiting For Invite</string>
+    <string name="talk_info">通话过程中，严禁任何违反国家法律法规……</string>
+    <string name="setting_video">摄像头</string>
+    <string name="setting_audio">麦克风</string>
+    <string name="setting_trans">前置摄像头</string>
+    <string name="setting_report">举报</string>
+    <string name="endtalk">通话已结束</string>
+    <string name="endtalk_info">通话已结束快来查看奖励吧~</string>
+    <string name="complete">Complete</string>
+    <string name="choosecontain">Choose Contain</string>
+    <string name="serch">Serch</string>
+    <string name="main_back">click more once back</string>
+</resources>

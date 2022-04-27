@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Activity.Login.PhoneLoginActivity">
+
+    <include layout="@layout/base_title"/>
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/phone_login"
+        android:layout_marginTop="40dp"
+        >
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@mipmap/area_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="11dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_area_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+86"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:textColor="@color/agreement_agree"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@mipmap/down_more"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            />
+
+        <EditText
+            android:id="@+id/etxt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textSize="16sp"
+            android:hint="@string/hint_phonecode"
+            android:layout_gravity="center_vertical"
+            android:maxLength="6"
+            android:inputType="number"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@color/text_hint_color"
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_next"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/agreement_unagree">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Next"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    
+</LinearLayout>

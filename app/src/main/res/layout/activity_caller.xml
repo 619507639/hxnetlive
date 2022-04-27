@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Activity.CallerActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/login_bg" />
+
+    <RelativeLayout
+        android:id="@+id/rl_call"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/call_bg"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="waitforcall"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/user_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@mipmap/user_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="121dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_anchor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="物语小甜心咋咋咋"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/user_icon"
+            android:layout_marginTop="7dp"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_talk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/talk_info"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_below="@+id/txt_anchor_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="127dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_cancel"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@mipmap/phone_cancel"
+            android:layout_below="@+id/txt_talk"
+            android:layout_marginTop="278dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/img_cancel"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_calling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="52dp"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/cancen_bg" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/call_bg">
+
+            <ImageView
+                android:id="@+id/img_user"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@mipmap/area_icon" />
+
+            <TextView
+                android:id="@+id/anchor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/img_user"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/anchor_name"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/img_user"
+                android:text="00:23"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="147dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="98dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/conner_white_bg">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/zw_icon" />
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_talk"
+            android:layout_width="230dp"
+            android:layout_height="184dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="92dp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_blance"
+            android:layout_width="146dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="168dp"
+            android:layout_marginBottom="86dp"
+            android:background="@mipmap/blacnce_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="6dp"
+                android:text="余额不足，请充值"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/line_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="46dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="131dp"
+                android:layout_height="36dp"
+                android:background="@drawable/call_bg">
+
+                <EditText
+                    android:layout_width="65dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:background="@null" />
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="23dp"
+                    android:background="@mipmap/sendmessage_white" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/img_reword"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="10dp"
+                android:background="@mipmap/anchor_reword" />
+
+            <ImageView
+                android:id="@+id/img_setting"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="36dp"
+                android:background="@mipmap/anchor_setting" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="345dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="290dp"
+        android:layout_height="345dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dialog_white"
+        >
+
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/endtalk"
+        android:textSize="18sp"
+        android:textColor="@color/endtalk_color"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/endtalk_info"
+        android:textSize="12sp"
+        android:textColor="@color/endtalk_info"
+        android:layout_below="@+id/txt_title"
+        android:layout_marginTop="9dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+
+        <RelativeLayout
+            android:id="@+id/rl_talk_timer"
+            android:layout_width="101dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/txt_content"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="19dp"
+            android:background="@mipmap/talk_timer">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23:45"
+                android:textColor="@color/endtalk_color"
+                android:textSize="12sp"
+                android:layout_marginTop="84dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_talk_money"
+        android:layout_width="101dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/txt_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@+id/rl_talk_timer"
+        android:background="@mipmap/talk_money">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+60"
+            android:textColor="@color/endtalk_color"
+            android:textSize="12sp"
+            android:layout_marginTop="84dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_agree"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/rl_talk_money"
+        android:background="@drawable/agreement_agree">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/complete"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

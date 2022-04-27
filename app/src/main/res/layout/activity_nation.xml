@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Activity.Login.NationActivity">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:background="@mipmap/back_icon" />
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choosecontain"
+        android:textColor="@color/agreement_agree"
+        android:textSize="18sp"
+        android:layout_marginTop="54dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/line_serch"
+        android:layout_width="321dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:background="@drawable/chose_contain"
+        android:layout_below="@+id/txt_title"
+        android:layout_marginTop="18dp"
+        >
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@mipmap/serch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="17dp"
+            />
+
+        <EditText
+            android:id="@+id/etxt_serch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_name"
+            android:textSize="16sp"
+            android:background="@null"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:maxLength="20"
+            />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_contain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/line_serch" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_rank"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="20dp"
+        android:layout_height="306dp"/>
+</RelativeLayout>

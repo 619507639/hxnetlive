@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="188dp"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_white"
+    >
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/agreement_report"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="Block"
+            android:textColor="@color/sure_report"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/agreement_report"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="Report"
+            android:textColor="@color/sure_report"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
